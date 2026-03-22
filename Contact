@@ -1,0 +1,15 @@
+<html>
+<head><title>Contact</title></head>
+<body style="font-family: Arial; text-align:center; background:#fdf6f9;">
+<h1>Contact Us</h1>
+
+<form action="https://formspree.io/f/YOURCODE" method="POST">
+<input type="email" name="email" placeholder="Your Email"><br><br>
+<textarea name="message" placeholder="Your Message"></textarea><br><br>
+<button type="submit">Send</button>
+</form>
+
+<br>
+<a href="index.html">Back Home</a>
+</body>
+</html>
