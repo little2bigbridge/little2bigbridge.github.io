@@ -1,0 +1,14 @@
+<html>
+<head><title>Donate</title></head>
+<body style="font-family: Arial; text-align:center; background:#fdf6f9;">
+<h1>Support Little2BigBridge</h1>
+<p>Your donations help us host events, provide supplies, and grow our program.</p>
+
+<a href="#" style="padding:15px; background:#f4978e; color:white; text-decoration:none; border-radius:20px;">
+Donate via GoFundMe
+</a>
+
+<br><br>
+<a href="index.html">Back Home</a>
+</body>
+</html>
