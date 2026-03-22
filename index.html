@@ -8,16 +8,15 @@
 <style>
 body {
 margin: 0;
-font-family: Arial, sans-serif;
-background: #f4f8fb;
-color: #2a4d69;
+font-family: 'Arial', sans-serif;
+background: #fdf6f9;
+color: #3a506b;
 }
 
 header {
-background: #2a4d69;
-color: white;
+background: #b8d8e3;
 text-align: center;
-padding: 30px 20px;
+padding: 30px;
 }
 
 header h1 {
@@ -25,20 +24,20 @@ margin: 0;
 }
 
 .tagline {
-color: #f28c38;
+color: #f4978e;
 font-weight: bold;
 }
 
 nav {
-background: #f28c38;
-padding: 10px;
+background: #fbc4ab;
+padding: 12px;
 text-align: center;
 }
 
 nav a {
-color: white;
 margin: 0 15px;
 text-decoration: none;
+color: #3a506b;
 font-weight: bold;
 }
 
@@ -47,18 +46,24 @@ text-align: center;
 padding: 50px 20px;
 }
 
-.hero h2 {
-font-size: 28px;
+.hero img {
+width: 200px;
 }
 
 .button {
 display: inline-block;
 margin: 10px;
 padding: 12px 20px;
-background: #2a4d69;
-color: white;
+background: #b8d8e3;
+color: #3a506b;
 text-decoration: none;
 border-radius: 25px;
+transition: 0.3s;
+}
+
+.button:hover {
+background: #f4978e;
+color: white;
 }
 
 .section {
@@ -66,9 +71,14 @@ padding: 40px 20px;
 text-align: center;
 }
 
+.section img {
+width: 300px;
+border-radius: 15px;
+margin-top: 15px;
+}
+
 footer {
-background: #2a4d69;
-color: white;
+background: #b8d8e3;
 text-align: center;
 padding: 15px;
 }
@@ -83,32 +93,34 @@ padding: 15px;
 </header>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">Donate</a>
-<a href="#">Volunteer</a>
-<a href="#">Start a Chapter</a>
-<a href="#">Contact</a>
+<a href="index.html">Home</a>
+<a href="donate.html">Donate</a>
+<a href="volunteer.html">Volunteer</a>
+<a href="chapter.html">Start a Chapter</a>
+<a href="contact.html">Contact</a>
 </nav>
 
 <section class="hero">
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="students">
 <h2>Connecting Students Through Mentorship</h2>
 <p>
 We help pair students with younger elementary school kids to build friendships,
-offer guidance, and create meaningful connections through events like craft nights.
+give advice, and create meaningful connections through events like craft nights.
 </p>
 
-<a class="button" href="#">Donate</a>
-<a class="button" href="#">Volunteer</a>
-<a class="button" href="#">Start a Chapter</a>
+<a class="button" href="donate.html">Donate</a>
+<a class="button" href="volunteer.html">Volunteer</a>
+<a class="button" href="chapter.html">Start a Chapter</a>
 </section>
 
 <section class="section">
 <h2>Our Mission</h2>
 <p>
-At Little2BigBridge, we believe small steps create big connections.
-By pairing students together, we help build confidence, friendships,
-and a stronger community.
+We believe small steps create big connections. Through mentorship and friendship,
+we help students feel supported, confident, and connected.
 </p>
+
+<img src="https://images.unsplash.com/photo-1529390079861-591de354faf5">
 </section>
 
 <footer>
@@ -117,3 +129,4 @@ and a stronger community.
 
 </body>
 </html>
+
